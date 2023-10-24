@@ -1,0 +1,91 @@
+[{
+    "maHoaDon": "HD123456",
+    "ngayLap":"2021-02-05",
+    "gioLap": "10:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123457",
+    "ngayLap":"2022-02-05",
+    "gioLap": "11:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng" ,
+    "loaiHoaDon":"huy" 
+},
+{
+    "maHoaDon": "HD123458",
+    "ngayLap":"2023-02-05",
+    "gioLap": "12:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123458",
+    "ngayLap":"2024-02-05",
+    "gioLap": "13:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng" ,
+    "loaiHoaDon":"huy" 
+},
+{
+    "maHoaDon": "HD123451",
+    "ngayLap":"2025-02-05",
+    "gioLap": "14:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123451",
+    "ngayLap":"2025-02-05",
+    "gioLap": "14:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123451",
+    "ngayLap":"2025-02-05",
+    "gioLap": "14:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123451",
+    "ngayLap":"2025-02-05",
+    "gioLap": "14:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+},
+{
+    "maHoaDon": "HD123451",
+    "ngayLap":"2025-02-05",
+    "gioLap": "14:42:30",
+    "nguoiLap": "Nguyen Van A",
+    "tongTien": 50,
+    "tenNhaCungCap": "Công ty TNHH ABC",
+    "lyDoHoanTra": "Hàng hóa không đúng chất lượng"  ,
+    "loaiHoaDon":"tra"
+}
+]

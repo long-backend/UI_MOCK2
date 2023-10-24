@@ -1,0 +1,377 @@
+<div className="row" style={{marginLeft:120}} >
+            <table class="table table-bordered">
+      
+      <tbody>
+        <tr>
+
+          {calendar.map}
+
+          <td> day :1
+          {date[0].map((item,index) => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.name}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}
+            onClick={() =>handleEdit(0,item,index)}
+
+             />
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          </td>
+          <td> day :1
+          {date[0].map((item,index) => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.name}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}
+            onClick={() =>handleEdit(0,item,index)}
+
+             />
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          </td>
+
+          <td>
+          day :2
+          {date[1].map((item,index) => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime} </div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}
+                onClick={() =>handleEdit(1,item,index)}
+             />
+             <FontAwesomeIcon icon={faTrash}
+              onClick={() => deleteArray(1,index, item)}
+             />           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :3
+          {date[2].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :4
+          {date[3].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :5
+          {date[4].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :6
+          {date[5].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :7
+          {date[6].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>
+          day :8
+          {date[7].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+         
+          </td>
+          <td>
+          day :9
+          {date[8].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :10
+          {date[9].map(item => 
+            <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          )}
+          </td>
+          <td>
+          day :11
+          {date[10].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :12
+          {date[11].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+         
+          </td>
+          <td>
+          
+          day :13
+          {date[12].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          </td>
+          <td>
+          day :14
+          {date[13].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+         
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>
+          day :15
+          {date[14].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :16
+          {date[15].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+         
+          </td>
+          <td>
+          day :17
+          {date[16].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :18
+          {date[17].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :19
+          {date[18].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :20
+          {date[19].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+          
+          </td>
+          <td>
+          day :21
+          {date[20].map(item => 
+          <>
+          <div className="row">
+            <div className="col-md-6">Name: {item.startTime}</div>
+            <div className="col-md-6">
+             <FontAwesomeIcon icon={faEdit}/>
+             <FontAwesomeIcon icon={faTrash}/>           
+                    </div>
+          </div>
+          
+          </>
+          )}
+         
+          </td>
+        </tr>
+      </tbody>
+    </table>
+              {/* tạm thời gỡ bỏ cách làm truyền thống này */}
+
+            </div>
